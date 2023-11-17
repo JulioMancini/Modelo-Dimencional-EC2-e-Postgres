@@ -1,4 +1,4 @@
-# MODELO DIMENCIONAL
+# Modelo Dimencional EC2 e Postgres
 Objetivo = Criar, popular e testar modelo Dimensional básico para testes SQL
 # Criando e configurando uma instância no EC2
 * Procurar por EC2 na pesquisa
@@ -52,3 +52,34 @@ sudo apt-get -y install postgresql
 ```bash
 sudo su - postgres
 ```
+**#criar diretorio e entrar nele**
+```bash
+mkdir dimensional
+cd dimensional
+```
+**baixar arquivo**
+```bash
+wget https://www.datascientist.com.br/engdados/dimensional.zip
+```
+```bash
+unzip dimensional.zip
+dir
+cat 8.CreateTable.sql
+```
+**logar no postgres**
+```bash
+psql
+```
+**criando database**
+```bash
+create database teste1;
+\c teste1;
+```
+**criar e popular tabelas**
+```bash
+\i /var/lib/postgresql/dimensional/8.CreateTable.sql
+\i /var/lib/postgresql/dimensional/9.InsertDimensaoTempo.sql
+```
+Estrutura![modelo dm](https://github.com/JulioMancini/a/assets/145502330/5e9fc99e-35b8-44fe-9756-d9b1bf461123)
+
+
