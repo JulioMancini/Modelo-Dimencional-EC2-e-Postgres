@@ -1,5 +1,5 @@
-# a
-Criar, popular e testando modelo Dimensional e SQL - Postgres e EC2
+# MODELO DIMENCIONAL
+Objetivo = Criar, popular e testando modelo Dimensional e SQL - Postgres e EC2
 # Criando e configurando uma instância no EC2
 * Procurar por EC2 na pesquisa
 
