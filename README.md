@@ -1,5 +1,5 @@
 # MODELO DIMENCIONAL
-Objetivo = Criar, popular e testando modelo Dimensional e SQL - Postgres e EC2
+Objetivo = Criar, popular e testar modelo Dimensional básico para testes SQL
 # Criando e configurando uma instância no EC2
 * Procurar por EC2 na pesquisa
 
